@@ -3,18 +3,21 @@ header.site-header {
     height: 100px;
 }
 
-div.left-panel {
+#login-btn {
+    margin-top: 26px; 
+}
+
+#center-card {
+    margin-bottom: 0px !important;
+}
+
+div.side-panel {
+    display: block; 
     width: 100px;
     background: blue; 
 }
 
-
-div.right-panel {
-    width: 100px;
-    background: blue; 
-}
-
-.page-footer {
+#footer {
     position: fixed;
     height: 80px;
     background-color: lightgray;
@@ -22,4 +25,14 @@ div.right-panel {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+}
+
+/* Bootstrap extra small device breakpoint  */
+@media screen and (max-width: 575.98px) {
+    .side-panel {
+        display: none !important;
+    }
+    #checkWord {
+        margin-left: 10px; 
+    }
 }
