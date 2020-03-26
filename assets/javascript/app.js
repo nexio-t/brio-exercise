@@ -57,6 +57,23 @@ let checkPalindrome = function(text) {
 
 };
 
+let displayResult = function() {
+    
+    console.log("palindrome variable in displayResult: ", palindrome); 
+    let word = "word"; 
+
+    if (palindrome) {
+        console.log("displayResult function called: palindrome is true"); 
+
+        $("#palindromeResult").text(`Yes ${word} is a palindrome!`);
+    } else {
+        console.log("displayResult function called: palindrome is false"); 
+        $("#palindromeResult").text("Nope!");
+    }
+
+}
+
+
 
 });
 
