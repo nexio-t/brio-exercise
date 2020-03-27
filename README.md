@@ -18,7 +18,7 @@ A man, a plan, a canal -- Panama
 ### Demo
 
 Image one: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Is it a palindrome?")
+![alt text](./assets/images/palindrome.png "Is it a palindrome?")
 
 Check out the video demo [here](https://getbootstrap.com/). 
 
