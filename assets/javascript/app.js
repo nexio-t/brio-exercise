@@ -2,37 +2,26 @@ document.addEventListener("DOMContentLoaded", function() {
   let word = "";
   let palindrome;
 
+/**** button event handler ****/
   $("#checkWord").click(function(e) {
+
     e.preventDefault();
-    // call checkPalindrome function
     word = $("#palindrome")
       .val()
       .trim();
-
-    console.log("++++++++++++++++++");
-
     checkPalindrome(word).then(displayResult(word));
     $("#palindrome").val("");
+    
   });
 
+/**** check if palindrome ****/
   let checkPalindrome = function(text) {
+
     return new Promise(function(resolve, reject) {
-      // console.log("word before: ", text);
-
       let textOnly = text.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
-
-    //   textOnly = text.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
-
-      //find a way to eliminate spaces, upper and lower case letters, punctuation
-      // console.log("checkPalindrome called");
-      // console.log("textOnly after: ", textOnly);
-
       let leftPointer = 0;
       let rightPointer = textOnly.length - 1;
-      console.log("Palindrome before while loop: ", palindrome);
-
       palindrome = true;
-
       while (leftPointer < rightPointer) {
         if (textOnly[leftPointer] !== textOnly[rightPointer]) {
           palindrome = false;
@@ -40,24 +29,19 @@ document.addEventListener("DOMContentLoaded", function() {
         leftPointer++;
         rightPointer--;
       }
-
-      console.log("Palindrome after while loop: ", palindrome);
-
       resolve(palindrome);
     });
+
   };
 
+/**** display boolean result ****/
   let displayResult = function(word) {
-    console.log("palindrome variable in displayResult: ", palindrome);
-    // console.log("user submitted word: ", word);
 
     if (palindrome) {
-      // console.log("displayResult function called: palindrome is true");
-
       $("#palindromeResult").text(`Yes, ${word} is a palindrome!`);
     } else {
-      // console.log("displayResult function called: palindrome is false");
       $("#palindromeResult").text(`Nope, ${word} is not a palindrome!`);
     }
+
   };
 });

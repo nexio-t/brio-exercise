@@ -1,67 +1,67 @@
 header.site-header {
-    background: #c1e1ec; 
-    height: 100px;
+  background: #c1e1ec;
+  height: 100px;
 }
 
 #login-btn {
-    margin-top: 26px; 
+  margin-top: 26px;
 }
 
 #palindrome-title {
-    font-size: 3rem;
-    font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  font-family: "Lobster", cursive;
 }
 
 #palindrome-desc {
-    color: lightgray !important; 
-    margin-bottom: 20px;
+  color: lightgray !important;
+  margin-bottom: 20px;
 }
 
 #palindromeResult {
-    font-size: 2rem; 
-    font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .text-body {
-    font-size: 1rem; 
-    font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 #center-card {
-    margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 #palindrome {
-    font-size: 1rem; 
-    font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 #checkWord {
-    font-size: 1rem; 
-    font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 div.side-panel {
-    display: block; 
-    width: 100px;
+  display: block;
+  width: 100px;
 }
 
 #footer {
-    position: fixed;
-    height: 80px;
-    background-color: #c1e1ec;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
+  position: fixed;
+  height: 80px;
+  background-color: #c1e1ec;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 
-/* Bootstrap extra small device breakpoint  */
+/* Bootstrap extra small device breakpoint */
 @media screen and (max-width: 575.98px) {
-    .side-panel {
-        display: none !important;
-    }
-    #checkWord {
-        margin-left: 10px; 
-    }
+  .side-panel {
+    display: none !important;
+  }
+  #checkWord {
+    margin-left: 10px;
+  }
 }
