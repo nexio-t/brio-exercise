@@ -10,7 +10,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat&display=swap" rel="stylesheet">
     <title>Palindrome Checker</title>
 </head>
 
@@ -23,7 +24,8 @@
 
 
     <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-4">Palindrome?</h1>
+        <h1 id="palindrome-title">Is it a palindrome?</h1>
+        <h4 id="palindrome-desc" class="text-body">Palindromes are words, phrases, or </br> sentences spelled the same forwards as backwards</h4>
 
         <form class="form-inline justify-content-center">
             <div class="form-group mx-sm-3 mb-2">
@@ -40,19 +42,17 @@
         <div class="card-deck mb-3 text-center">
 
             <div class="side-panel">
-                Panel
             </div>
 
             <!-- Center Card -->
             <div id="center-card" class="card mb-4 box-shadow">
                 <div class="card-body">
                     <h1 class="card-title" id="palindromeResult"></h1>
-                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                    <div class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
                 </div>
             </div>
 
             <div class="side-panel">
-                Panel
             </div>
 
         </div>
@@ -60,7 +60,7 @@
 
     <footer id="footer" class="page-footer font-small .bg-primary">
 
-        <div class="text-center py-3">Footer
+        <div class="text-center py-3">
         </div>
 
     </footer>

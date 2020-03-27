@@ -1,5 +1,5 @@
 header.site-header {
-    background: lightgray; 
+    background: #c1e1ec; 
     height: 100px;
 }
 
@@ -7,20 +7,49 @@ header.site-header {
     margin-top: 26px; 
 }
 
+#palindrome-title {
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+}
+
+#palindrome-desc {
+    color: lightgray !important; 
+    margin-bottom: 20px;
+}
+
+#palindromeResult {
+    font-size: 2rem; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-body {
+    font-size: 1rem; 
+    font-family: 'Montserrat', sans-serif;
+}
+
 #center-card {
     margin-bottom: 0px !important;
+}
+
+#palindrome {
+    font-size: 1rem; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+#checkWord {
+    font-size: 1rem; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 div.side-panel {
     display: block; 
     width: 100px;
-    background: blue; 
 }
 
 #footer {
     position: fixed;
     height: 80px;
-    background-color: lightgray;
+    background-color: #c1e1ec;
     bottom: 0px;
     left: 0px;
     right: 0px;
