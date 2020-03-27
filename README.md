@@ -1,6 +1,6 @@
 # Is it a palindrome?  
 
-> A simple wwebpage to determine whether a user input is a palindrome
+> A simple webpage to determine whether a user input is a palindrome.
 > Palindromes are words, phrases, or sentences spelled the same forwards as backwards
 
 Per the requirements, this exercise includes the double challenge, allowing users to check if a word, phrase, or sentence is a palindrome while ignoring uppercase, punctuation, and spaces. Below are all examples that will register as palindromes: 
