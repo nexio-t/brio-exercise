@@ -20,7 +20,7 @@ A man, a plan, a canal -- Panama
 Image one: 
 ![alt text](./assets/images/palindrome.png "Is it a palindrome?")
 
-Check out the video demo [here](https://getbootstrap.com/). 
+Check out the video demo [here](https://drive.google.com/file/d/1T9DUxDDY-Ey-TdcE6Ld0CM0BRmIeaD-s/view). 
 
 ### This project was built with...
 * HTML5
